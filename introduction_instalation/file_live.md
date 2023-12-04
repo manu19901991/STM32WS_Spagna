@@ -24,7 +24,7 @@ To navigate within this manual, please use navigation buttons:
 
 <br>
 
-In case of any questions / problems please contact us on [link](https://community.st.com)
+In case of any questions / problems please contact us at ignacio.espinel@avnet.eu
 
 See you on STM32U5 Workshop live session
 <br>
