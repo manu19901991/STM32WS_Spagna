@@ -363,7 +363,7 @@
         },
         {
           "type": "File",
-          "name": "BeforeVSTM32WBA session",
+          "name": "Before STM32WBA session",
           "file": "file_live_1.md"
         }
       ]
