@@ -101,6 +101,39 @@ STM32CubeMX and STM32CubeIDE are using the same repository by default, so instal
 In case you would like to know more about this tool and its usage you can have a look at dedicated [video](https://youtu.be/COOi_BiPE5U).
 
 <br>
+
+----
+
+# TouchGFX Installation
+We will run and handson dedicated to graphic to successfully start with it you need to install the following:
+
+
+1.  Install X-CUBE-TOUCHGFX from STM32CubeMX, launch STM32CubeMX then:
+2.  In home screen, click on “Install/Remove” software packages (you will need to login to your www.st.com account at this point)
+3.  Click on “STMicroelectronics” tab
+4.  Scroll the list down to “X-CUBE-TOUCHGFX”, check the 4.22.1 version
+5.  Click on “Install”
+
+![tgfx](./img/111.png)
+
+
+6.  Install TouchGFX Designer (the editor), the installer is in:
+C:\users\<your user name>\STM32Cube\Repository\Packs\STMicroelectronics\X-CUBE-TOUCHGFX\4.22.1\Utilities\PC_Software\TouchGFXDesigner\TouchGFX-4.22.1.msi
+Make sure that the installation path is on C:\
+7.  Install STM32CubeProgrammer version 2.14.0 in default folder from [here](https://www.st.com/en/development-tools/stm32cubeprog.html#get-software)
+
+<br>
+Additionally prepared test project can be a base for next hands-on parts during the workshop.
+
+## ** 1 STM32CubeIDE and STM32U5 Cube library**
+<br>
+
+----
+
+
+
+
+
 ----
 
 # Verification process
