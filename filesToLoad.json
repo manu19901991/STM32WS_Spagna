@@ -358,13 +358,13 @@
       "children": [
         {
           "type": "File",
-          "name": "Before live sessions",
+          "name": "Before  STM32U5 session",
           "file": "file_live.md"
         },
         {
           "type": "File",
-          "name": "Before on-line sessions",
-          "file": "file_online.md"
+          "name": "BeforeVSTM32WBA session",
+          "file": "file_live_1.md"
         }
       ]
     },
