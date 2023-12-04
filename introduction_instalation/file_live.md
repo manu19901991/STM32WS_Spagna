@@ -108,11 +108,12 @@ In case you would like to know more about this tool and its usage you can have a
 We will run and handson dedicated to graphic to successfully start with it you need to install the following:
 
 
-Install X-CUBE-TOUCHGFX from STM32CubeMX, launch STM32CubeMX then:
-1.  In home screen, click on “Install/Remove” software packages (you will need to login to your www.st.com account at this point)
-2.  Click on “STMicroelectronics” tab
-3.  Scroll the list down to “X-CUBE-TOUCHGFX”, check the 4.22.1 version
-4.  Click on “Install”
+Install X-CUBE-TOUCHGFX from STM32CubeMX, launch STM32CubeMX then:\
+
+1.  In home screen, click on “Install/Remove” software packages (you will need to login to your www.st.com account at this point)\
+2.  Click on “STMicroelectronics” tab\
+3.  Scroll the list down to “X-CUBE-TOUCHGFX”, check the 4.22.1 version\
+4.  Click on “Install” \
 
 ![tgfx](./img/111.png)
 
