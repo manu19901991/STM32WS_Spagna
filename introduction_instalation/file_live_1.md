@@ -21,8 +21,7 @@ To navigate through this guide, please use the navigation buttons provided.
 
 <br>
 
-If you have any questions or encounter any problems, please do not hesitate to contact us at  **[manuel.marcias@st.com]**
-
+If you have any questions or encounter any problems, please do not hesitate to contact us at  ignacio.espinel@avnet.eu
 We look forward to seeing you at the STM32WBA Workshop live session!
 <br>
 
