@@ -7,17 +7,17 @@
   },
   "filesToLoadArr": [
     {
-      "name": "Preparation to STM32U5 workshop",
+      "name": "Preparation to STM32 workshop",
       "path": "/introduction_instalation",
       "file": "start.md"
     },
     {
-      "name": "STM32U5 Workshop - preparation before live sessions",
+      "name": "STM32 Workshop - preparation STM32U5",
       "path": "/introduction_instalation",
       "file": "file_live.md"
     },
     {
-      "name": "STM32U5 Workshop - preparation and homework before on-line sessions",
+      "name": "STM32 Workshop - preparation STM32WBA",
       "path": "/introduction_instalation",
       "file": "file_online.md"
     },
