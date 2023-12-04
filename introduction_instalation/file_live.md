@@ -110,6 +110,7 @@ We will run and handson dedicated to graphic to successfully start with it you n
 
 Install X-CUBE-TOUCHGFX from STM32CubeMX, launch STM32CubeMX then:
 
+- Install **STM32CubeProgrammer version 2.14.0 or later** in default folder from [here](https://www.st.com/en/development-tools/stm32cubeprog.html#get-software)
 - In home screen, click on “Install/Remove” software packages (you will need to login to your www.st.com account at this point)
 - Click on “STMicroelectronics” tab
 - Scroll the list down to “X-CUBE-TOUCHGFX”, check the 4.22.1 version
@@ -121,7 +122,6 @@ Install X-CUBE-TOUCHGFX from STM32CubeMX, launch STM32CubeMX then:
 - Install TouchGFX Designer (the editor), the installer is in:
 C:\users\<your user name>\STM32Cube\Repository\Packs\STMicroelectronics\X-CUBE-TOUCHGFX\4.22.1\Utilities\PC_Software\TouchGFXDesigner\TouchGFX-4.22.1.msi
 Make sure that the installation path is on C:\
-- Install STM32CubeProgrammer version 2.14.0 in default folder from [here](https://www.st.com/en/development-tools/stm32cubeprog.html#get-software)
 
 
 
