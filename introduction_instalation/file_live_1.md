@@ -220,7 +220,7 @@ In case of neither errors nor warnings after this process, STM32CubeIDE and STM3
 </ainfo>
 
 <ainfo>
-## Slides for the complete Workshop can be downloaded from [here](https://github.com/manu19901991/Bologna). 
+## Slides for the complete Workshop can be downloaded from [here](). 
 </ainfo>
 
 ----
