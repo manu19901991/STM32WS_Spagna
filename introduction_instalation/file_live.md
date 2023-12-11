@@ -313,7 +313,7 @@ Please start STM32CubeMonitorPwr and check that you can see similar window as a 
   - [NUCLEO-U575ZI-Q board schematics](https://www.st.com/resource/en/schematic_pack/mb1549-u575ziq-c03_schematic.pdf)
 
 
-  Alternatively you can download complete set of offline materials from [this link](https://github.com/RRISTM/stm32u5_workshop/tree/master/material_pdf)
+  Alternatively you can download complete set of offline materials from [this link](https://github.com/manu19901991/STM32WS_Spagna/tree/main/package)
 
 # Verification process at the begining of the session
 
