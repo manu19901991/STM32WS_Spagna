@@ -368,27 +368,7 @@
           "type": "Folder",
           "name": "1. ULP modes",
           "children": [
-            {
-              "type": "Folder",
-              "name": "Home Asiistants",
-              "children": [
-                {
-                  "type": "File",
-                  "name": "Google Nest",
-                  "file": "lpmodes_theory_lpmodes.md"
-                },
-                {
-                  "type": "File",
-                  "name": "Alexa",
-                  "file": "lpmodes_theory_clock.md"
-                },
-                {
-                  "type": "Apple HomePod",
-                  "name": "3. EXTI",
-                  "file": "lpmodes_theory_exti.md"
-                }
-              ]
-            },
+           
             {
               "type": "Folder",
               "name": "ULP modes hands-on",
