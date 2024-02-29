@@ -353,9 +353,9 @@
       "name": "BEFORE WORKSHOP",
       "children": [
         {
-          "type": "File",
-          "name": "Before  STM32U5 session",
-          "file": "file_live.md"
+           "type": "File",
+          "name": "Before STM32WBA session",
+          "file": "file_live_1.md"
         }
       ]
     },
