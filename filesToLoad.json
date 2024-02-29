@@ -366,48 +366,34 @@
        
         {
           "type": "Folder",
-          "name": "1. ULP modes",
+          "name": "Matter",
           "children": [
            
             {
               "type": "Folder",
-              "name": "ULP modes hands-on",
+              "name": "Home assistants",
               "children": [
                 {
                   "type": "File",
-                  "name": "1. Hands-on Overview",
+                  "name": "Google Nest",
                   "file": "lpmodes_handson_intro.md"
                 },
                 {
                   "type": "File",
-                  "name": "2. Start Project",
+                  "name": "Apple Homekit",
                   "file": "lpmodes_handson_project.md"
                 },
                 {
                   "type": "File",
-                  "name": "3. CubeMx Configuration",
+                  "name": "Samsung Smartthings",
                   "file": "lpmodes_handson_cubemx.md"
                 },
                 {
                   "type": "File",
-                  "name": "4. CubeIDE Code",
+                  "name": "Amazon Alexa",
                   "file": "lpmodes_handson_cubeide.md"
                 },
-                {
-                  "type": "File",
-                  "name": "5. CubeIDE Debug",
-                  "file": "lpmodes_handson_debug.md"
-                },
-                {
-                  "type": "File",
-                  "name": "6. Cube Power Monitor",
-                  "file": "lpmodes_handson_powmon.md"
-                },
-                {
-                  "type": "File",
-                  "name": "7. Power Consumption",
-                  "file": "lpmodes_handson_result.md"
-                }
+                
               ]
             }
           ]
