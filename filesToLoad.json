@@ -13,7 +13,7 @@
     },
    
     {
-      "name": "STM32 Workshop - preparation STM32WBA",
+      "name": "FAE MeetUP 2024 - STM32WB Matter",
       "path": "/introduction_instalation",
       "file": "file_live_1.md"
     },
@@ -224,12 +224,12 @@
       "file": "lpmodes_theory_exti.md"
     },
     {
-      "name": "1. Hands-on Overview",
+      "name": "Team Google Nest",
       "path": "/lpmodes",
       "file": "lpmodes_handson_intro.md"
     },
     {
-      "name": "2. Start Project",
+      "name": "Team Apple HomePod",
       "path": "/lpmodes",
       "file": "lpmodes_handson_project.md"
     },
@@ -354,7 +354,7 @@
       "children": [
         {
            "type": "File",
-          "name": "Before STM32WBA session",
+          "name": "Before STM32 Matter session",
           "file": "file_live_1.md"
         }
       ]
