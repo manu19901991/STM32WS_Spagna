@@ -25,150 +25,56 @@ Presentation
 # Installation process
 - download **STM32CubeProg** from [here](https://www.st.com/en/development-tools/stm32cubeprog.html)
 
+
+- **Open the STM32CubeProgrammer version 2.15.0 or later.
+- **Connect physically your development platform to the PC running STM32CubeProgrammer.
+<br>
+  ![microUSB cables](./img/52.png)
+<br>
+- **Connect your platform using STM32Cubeprogrammer.
+<br>
+  ![microUSB cables](./img/53.png)
 <br>
 ----
 
 
-# Verification process before the workshop
-The purpose of this part is checking whether all software components are installed properly.
-<br>
-Additionally prepared test project can be a base for next hands-on parts during the workshop.
+# Update processor binary firmware stack
+The Bluetooth® Low Energy-Thread Stack (stm32wb5x_BLE_Thread_ForMatter_fw.bin) for STM32WB5MM-DK, or the Thread stack for P-NUCLEO-WB55, can be updated in the same way as the FUS.
+First, check the start address of the stack in the release notes within the X-CUBE-MATTER\Projects\STM32WB_Copro_Wireless_Binaries\STM32WB5x folder.
 
-## **STM32CubeIDE and STM32WBA Cube library**
+<br>
+  ![microUSB cables](./img/62.png)
+<br>
+
+
+For STM32WB5MM-DK Discovery platform the recommended stack is: ...\Projects\STM32WB_Copro_Wireless_Binaries\STM32WB5x\stm32wb5x_BLE_Thread_ForMatter_fw.bin.
+Check the First install checkbox if it is the first time you are installing the stack on your platform.
+
+
+<br>
+  ![microUSB cables](./img/63.png)
+<br>
+
+
+
+
+
+----
+
+
+# Program M4 Core
+
+
+All the code running on the Arm Cortex®-M4 on end device is delivered as source code and binaries for embedded application examples. If you want to use your own application, use STM32CubeIDE to build it for M4. Use STM32CubeProgrammer to flash M4 with application at the start address: 0x0800 0000.
+
+
+
+<br>
+  ![microUSB cables](./img/64.png)
 <br>
 
 ----
 
-<br>
-**Task definition**
-<br>
-
-- Using STM32CubeIDE
-  - Enable SWD for debug
-  - Disable TrustZone
-  - Configure ICACHE (in any of available modes)
-- Select and configure USART1
-  - in asynchronous mode,
-  - using default settings (115200bps, 8D, 1stop bit, no parity) 
-  - on PA8/PB12 pins
-<br>
-
-----
-
-<br>
-## **Step1** - project creation and peripherals configuration
- - Run **STM32CubeIDE**
- - Specify workspace location (i.e. `C:\_Work\WBA_ex1`)
-
-<br>
-- Start new project using one of the below methods:
-  - by selecting `File->New->STM32Project` 
-  - by click on `Start new STM32 project` button
-  <br>
-  ![Workspace_start2](./img/New_prj_start_2.gif)
-<br>
-- switch to **Board Selector** tab
-- select **NUCLEO-WBA52CG** board
-- press `Next` button
-- within STM32 Project window:
-  - specify project name (i.e. `WBA_UART`)
-  - keep **enable TrustZone** option unchecked
-  - press `Finish` button
-  - on question pop-up window "Initialize all peripherals with their default state?" press `No` button 
-  - on question pop-up window "Switch to proper CubeIDE perspective?", if it is showed, press `Yes` button 
-  - on worning pop-up window "Do you still want a code generation?", press `No` button 
-  - on following information pop-up window, it was our decision did not generate code, press `OK` button 
-  <br>
-   ![Workspace_start3](./img/11.gif)
-<br>
-- Peripherals configuration: Pinout&Configuration tab
-- **ICACHE configuration** (System Core group)
-  - select either 1-way or 2-ways (we will not focus on performance within this workshop)
-  <br>
-  ![ICACHE configuration](./img/8.gif)
-  <br>
-- **USART1 configuration** (Connectivity group)
-  - select Asynchronous mode
-  - keep default settings in configuration:
-    - Basic parameters: 115200bps, 8bits data, 1 stop bit, no parity
-    - Pins assignment: PA8, PB12
-    - no interrupts, no DMA usage
-  <br>
-    ![USART3 configuration](./img/9.gif)
-<br>
-- **Project settings**
-  - select `Project Manager` tab
-  - check project location (.ioc file)
-  - check project name
-<br>
-   ![Project settings](./img/12.gif)
-<br>
-  - generate project by one of the ways:
-    - by pressing "gear" icon
-    - by select `Project->Generate Code`
-    - by pressing **Alt+K**
-
-----
-
-<br>
-## **Step2** - coding part (`main.c` file)
-<br>
-Define the buffer of bytes to be sent over **USART3** (`USER CODE PV` section):
-<br>
-
-```c
-  uint8_t buffer[]={"Hello STM32WBA\r\n"};
-```
-
-<br>
-Turn on **LED1_GREEN** (`USER CODE 2` section):
-<br>
-
-```c
-  HAL_GPIO_WritePin(LD1_GPIO_Port, LD1_Pin, 1);
-```
-
-<br>
-Toggle **LED1_GREEN** (`USER CODE 3` section)
-<br>
-Toggle **LED2_YELLOW** 
-<br>
-Start transmit of the data over **USART3** using prepared buffer and ***polling*** method
-<br>
-Wait for 250 ms
-<br>
-
-```c
- HAL_GPIO_TogglePin(LD1_GPIO_Port, LD1_Pin);
-    HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
-    HAL_GPIO_TogglePin(LD3_GPIO_Port, LD3_Pin);
-    HAL_UART_Transmit(&huart1, buffer, 15, 200);
-    HAL_Delay(250);
-```
-
-<br>
-![Coding3](./img/20.gif)
-<br>
-
-----
-
-<br>
-## **Step 3** - build the project
-- Build the project using `hammer` button or `Project->Built All` or **Ctrl+B**
-<br>
-![Project build](./img/14.gif)
-<br>
-
-<ainfo>
-In case of neither errors nor warnings after this process, STM32CubeIDE and STM32WBA library are installed correctly. Last point - debug session will be verified during first hands on part on the workshop.
-</ainfo>
-
-
-<ainfo>
-## **Congratulations** You have completed installation part. Now you are fully prepared for the live workshop session. 
-</ainfo>
-
-----
 
 # Materials for the session
 - Access to tools dedicated web pages:
@@ -179,4 +85,3 @@ In case of neither errors nor warnings after this process, STM32CubeIDE and STM3
 - documentation
   - [STM32WBA52xx datasheet](https://www.st.com/resource/en/datasheet/stm32wba52ce.pdf)
   - [STM32WBA52xx reference manual](https://www.st.com/resource/en/reference_manual/rm0493-multiprotocol-wireless-bluetooth-lowenergy-armbased-32bit-mcu-stmicroelectronics.pdf)
-
