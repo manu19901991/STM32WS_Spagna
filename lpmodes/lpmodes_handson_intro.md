@@ -1,14 +1,16 @@
 # Let's open Google Home up on the mobile provided to you
 
 <br>
-![gif](./img/11.gif)
+
+![gif](./img/111.gif)
+
 <br>
 
 
 # Tap on DEVICE, ADD, Matter
 <br>
 
-![gif](./img/12.gif)
+![gif](./img/222.gif)
 
 <br>
 # Open the webcam and scan the below QR CODE
@@ -21,9 +23,10 @@
 
 <br>
 
-![gif](./img/13.gif)
+![gif](./img/333.gif)
 
 <br>
+
 ----
 
 # Matter commissioning finished successfully
@@ -45,7 +48,8 @@ OLED display is showing the below output
 
 <br>
 
-----
+
+<br>
 
 
 
