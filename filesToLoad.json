@@ -14,11 +14,11 @@
    
     {
       "name": "FAE MeetUP 2024 - STM32WB Matter",
-      "path": "/introduction_instalation",
-      "file": "file_live_1.md"
+      "path": "/lpmodes",
+      "file": "lpmodes_workflow.md"
     },
     {
-      "name": "1. Modes",
+      "name": "objective",
       "path": "/gpdma/theory",
       "file": "1_gpdma_modes.md"
     },
