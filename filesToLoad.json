@@ -17,16 +17,8 @@
       "path": "/introduction_instalation",
       "file": "file_live_1.md"
     },
-
-
- {
-      "name": "objectives",
-      "path": "/lpmodes",
-      "file": "lpmodes_workflow.md"
-    },
-
     {
-      "name": "objective",
+      "name": "1. Modes",
       "path": "/gpdma/theory",
       "file": "1_gpdma_modes.md"
     },
@@ -373,9 +365,9 @@
       "children": [
 
       	  {
-          "type": "Folder",
+          "type": "File",
           "name": "OBJECTIVE",
-          "file": "lpmodes_workflow.md"
+          "file": "stm32u5_workshop_package_materials.md"
         }
         ,
        
