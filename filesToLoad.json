@@ -373,7 +373,7 @@
       "children": [
 
       	  {
-          "type": "File",
+          "type": "Folder",
           "name": "OBJECTIVE",
           "file": "lpmodes_workflow.md"
         }
