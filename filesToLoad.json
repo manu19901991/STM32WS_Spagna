@@ -228,6 +228,13 @@
       "path": "/lpmodes",
       "file": "lpmodes_handson_intro.md"
     },
+
+       {
+      "name": "objectives",
+      "path": "/lpmodes",
+      "file": "lpmodes_handson_intro1.md"
+    },
+
     {
       "name": "Team Apple HomePod",
       "path": "/lpmodes",
@@ -364,7 +371,7 @@
       	  {
           "type": "File",
           "name": "Objective",
-          "file": "lpmodes_handson_intro.md"
+          "file": "lpmodes_handson_intro1.md"
         }
         ,
        
