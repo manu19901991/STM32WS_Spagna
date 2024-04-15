@@ -339,12 +339,9 @@
       "file": "handson12.md"
     },
     {
+      "name": "FAE MeetUP 2024 - STM32WB Matter",
       "path": "/package",
       "file": "stm32u5_workshop_package_materials.md"
-    },
-    {
-      "path": "/security",
-      "file": "stm32u5_workshop_security.md"
     }
   ],
   "menuStructure": [
