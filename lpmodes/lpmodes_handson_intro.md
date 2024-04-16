@@ -6,7 +6,7 @@ Presentation
 
 <br>
 
-![gif](./img/11111.gif =250x250)
+![gif](./img/11111.gif)
 
 <br>
 
