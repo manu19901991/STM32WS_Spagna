@@ -6,7 +6,7 @@ Presentation
 
 <br>
 
-![gif](./img/4444.gif)
+![gif](./img/11111.gif)
 
 <br>
 
@@ -14,20 +14,20 @@ Presentation
 # Tap on DEVICE, ADD, Matter
 <br>
 
-![gif](./img/222.gif)
+![gif](./img/22222.gif)
 
 <br>
-# Open the webcam and scan the below QR CODE
+# Open the webcam and scan the QR CODE on OLED Display
 
 <br>
-![gif](./img/66.png)
+![gif](./img/33333.gif)
 <br>
 
 # Matter device commissioning process starts
 
 <br>
 
-![gif](./img/333.gif)
+![gif](./img/44444.gif)
 
 <br>
 
@@ -41,14 +41,14 @@ OLED display is showing the below output
 
 <br>
 
-![gif](./img/68.png)
+![gif](./img/55555.gif)
 
 <br>
 
 
 <br>
 
-![gif](./img/67.png)
+![gif](./img/66666.gif)
 
 <br>
 
