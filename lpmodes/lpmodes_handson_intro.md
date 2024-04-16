@@ -2,11 +2,11 @@
 Presentation
 ----!
 
-# Let's open Google Home up on the mobile provided to you
+# Let's open Google Home app on the mobile provided to you
 
 <br>
 
-![gif](./img/111.gif)
+![gif](./img/222.gif)
 
 <br>
 
