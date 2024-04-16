@@ -48,7 +48,7 @@ OLED display is showing the below output
 
 <br>
 
-![gif](./img/66666.gif)
+![gif](./img/67.png)
 
 <br>
 
@@ -63,7 +63,7 @@ First you need to provide a room on which device is located
 
 <br>
 
-![gif](./img/444.gif)
+![gif](./img/77777.gif)
 
 <br>
 
@@ -73,7 +73,7 @@ Now the device is showed in device list and can be controlled
 
 <br>
 
-![gif](./img/555.gif)
+![gif](./img/88888.gif)
 
 <br>
 
