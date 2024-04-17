@@ -36,7 +36,6 @@ Presentation
 # Matter commissioning finished successfully
 
 At the end of the commissioning, the STM32WB5MM-DK device is connected to the Matter network and the Fabric is created.
-OLED display is showing the below output
 
 
 <br>
@@ -45,6 +44,7 @@ OLED display is showing the below output
 
 <br>
 
+OLED display is showing the below output
 
 <br>
 
