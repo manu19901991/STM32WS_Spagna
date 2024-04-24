@@ -20,6 +20,7 @@ Presentation
 
 # STM32WB5M-DK
 <br> 
+
 ![theory1](./img/slide3.png)
 
 <br>
@@ -27,6 +28,7 @@ Presentation
 # Full picture of our hands-on
 
 <br> 
+
 ![theory1](./img/slide4.png)
 
 <br>
