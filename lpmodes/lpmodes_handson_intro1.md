@@ -3,7 +3,7 @@ Presentation
 ----!
 
 
-#Smartphone
+# Smartphone
 
 <br>
 
@@ -11,20 +11,20 @@ Presentation
 
 <br>
 
-#Home Assistant
+# Home Assistant
 <br>
 
 ![theory1](./img/slide2.png)
 
 <br>
 
-#STM32WB5M-DK
+# STM32WB5M-DK
 <br> 
 ![theory1](./img/slide3.png)
 
 <br>
 
-#Full picture of our hands-on
+# Full picture of our hands-on
 
 <br> 
 ![theory1](./img/slide4.png)
