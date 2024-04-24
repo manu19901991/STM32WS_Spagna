@@ -3,7 +3,7 @@ Presentation
 ----!
 
 
-# Quick Summary of our handson
+# Smartphone
 
 <br>
 
@@ -11,22 +11,22 @@ Presentation
 
 <br>
 
-#
+# Home Assistant
 <br>
 
 ![theory1](./img/slide2.png)
 
 <br>
 
-#
-<br>
+# 
+<br> STM32WB5M-DK
 ![theory1](./img/slide3.png)
 
 <br>
 
 #
 
-<br>
+<br> Full picture of our hands-on
 ![theory1](./img/slide4.png)
 
 <br>
