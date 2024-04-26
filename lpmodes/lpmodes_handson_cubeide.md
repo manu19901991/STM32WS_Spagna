@@ -13,17 +13,22 @@ Presentation
 <br>
 
 
-# Tap on DEVICE, ADD, Matter
+# Tap +, Device, Connect Your Matter Device
 <br>
 
-![gif](./img/22222.gif)
+![gif](./img/cccc.gif)
 
 <br>
-# Open the webcam and scan the QR CODE on OLED Display
+# Control Your Matter Device with Alexa
+
+Click Yes!
 
 <br>
-![gif](./img/33333.gif)
+
+![gif](./img/dddd.gif)
+
 <br>
+
 
 # Matter device commissioning process starts
 
