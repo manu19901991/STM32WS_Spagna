@@ -40,7 +40,6 @@ Click Yes!
 
 <br>
 
-----
 
 # Scan QR code
 
@@ -49,6 +48,28 @@ to be done
 <br>
 
 ![gif](./img/55555.gif)
+
+<br>
+
+
+
+
+# Matter device commissioning process starts
+
+<br>
+
+![gif](./img/iiii.gif)
+
+<br>
+
+# Matter commissioning finished successfully
+
+At the end of the commissioning, the STM32WB5MM-DK device is connected to the Matter network and the Fabric is created.
+
+
+<br>
+
+![gif](./img/llll.gif)
 
 <br>
 
@@ -67,11 +88,11 @@ OLED display is showing the below output
 
 # Control Matter End Node
 
-First you need to provide a room on which device is located
+First you need to provide a room on which device is located and choose a routine (optional step)
 
 <br>
 
-![gif](./img/77777.gif)
+![gif](./img/mmmm.gif)
 
 <br>
 
