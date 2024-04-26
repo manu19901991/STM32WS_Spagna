@@ -42,10 +42,9 @@ Click Yes!
 
 ----
 
-# Matter commissioning finished successfully
+# Scan QR code
 
-At the end of the commissioning, the STM32WB5MM-DK device is connected to the Matter network and the Fabric is created.
-
+to be done
 
 <br>
 
