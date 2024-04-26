@@ -52,7 +52,7 @@ Presentation
 
 
 <br>
-  ![microUSB cables](./img/63.png)
+  ![microUSB cables](./img/xxx.png)
 <br>
 
 
