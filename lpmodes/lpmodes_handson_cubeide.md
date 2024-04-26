@@ -92,7 +92,7 @@ First you need to provide a room on which device is located and choose a routine
 
 <br>
 
-![gif](./img/mmmm.gif)
+![gif](./img/mmmmm.gif)
 
 <br>
 
@@ -102,7 +102,7 @@ Now the device is showed in device list and can be controlled
 
 <br>
 
-![gif](./img/88888.gif)
+![gif](./img/nnnn.gif)
 
 <br>
 
