@@ -16,7 +16,7 @@ Presentation
 # Tap +, Device, Connect Your Matter Device
 <br>
 
-![gif](./img/cccc.gif)
+![gif](./img/eeee.gif)
 
 <br>
 # Control Your Matter Device with Alexa
