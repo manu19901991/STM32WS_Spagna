@@ -22,8 +22,7 @@ Presentation
 
 # Control Your Matter Device with Alexa
 
-Click Yes!
-
+Click Next!
 <br>
 
 ![gif](./img/ffff.gif)
@@ -31,11 +30,13 @@ Click Yes!
 <br>
 
 
-# Matter device commissioning process starts
+# Does device have a Matter logo
+
+Click Yes!
 
 <br>
 
-![gif](./img/44444.gif)
+![gif](./img/gggg.gif)
 
 <br>
 
