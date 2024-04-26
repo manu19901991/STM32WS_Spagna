@@ -92,7 +92,7 @@ First you need to provide a room on which device is located and choose a routine
 
 <br>
 
-![gif](./img/mmmmm.gif)
+![gif](./img/mmmm.gif)
 
 <br>
 
