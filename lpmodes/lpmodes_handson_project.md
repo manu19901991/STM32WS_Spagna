@@ -1,63 +1,86 @@
 ----!
-Presentation
-----!
 
-# Commision HomePOD
+# Let's open Google Home app on the mobile provided to you
+
+<br>
+
+![gif](./img/11111.gif)
+
+<br>
 
 
-HomePod needs to be pulsing with white light.
-Bring phone close to HomePod or in Home app click on “Add Accessory” and “More options” and search for your HomePod.
-Follow on-screen instructions, you can leave all the choices as default.
-After commissioning, the device needs to finish its set-up – this is visible by the “Configuring” state. When “Not Playing” is shown, you can continue.
+# Tap on DEVICE, ADD, Matter
+<br>
 
-   <br>
-  ![H5_DK](./img/71.png)
-  <br>
+![gif](./img/22222.gif)
+
+<br>
+
+# Open the webcam and scan the QR CODE on OLED Display
+
+<br>
+![gif](./img/33333.gif)
+<br>
+
+# Matter device commissioning process starts
+
+<br>
+
+![gif](./img/44444.gif)
+
+<br>
+
+
+
+# Matter commissioning finished successfully
+
+At the end of the commissioning, the STM32WB5MM-DK device is connected to the Matter network and the Fabric is created.
 
 
 <br>
 
-----
+![gif](./img/55555.gif)
 
-# Commision Device
-
-Tap on the plus sign and “Add Accessory”.
-Power on the STM32WB5M.
-Scan the provided QR code, confirm “Add to Home”.
-When asked if you want to add an uncertified accessory, confirm
-
-
-   <br>
-  ![H5_DK](./img/81.png)
-  <br>
-
-
-Keep default “Location”, change name to reflect device type (e.g. Switch or Light).
-After commissioning a switch, tap on the three dots icon and go to the Room where it was commissioned. Tap on the switch and enable “Add to Home View”. Go back to Home view.
-
-
-  <br>
-  ![H5_DK](./img/91.png)
-  <br>
-
-----
-
-
-
-# Bind switch to light
-
-Tap on Switch and under “Actions / Single Press”, tap on “Add”.
-Select “Convert to Shortcut”.
-
-
- <br>
-  ![H5_DK](./img/101.png)
- <br>
-
-
-Slide up the menu available at the bottom, switch to “Apps” and choose “Home”.
-Use the “If” and “Control” actions to set up the shortcut as shown here.
-Tap on “Next” and “Done”.
 <br>
-  ![H5_DK](./img/121.png)
- <br>
+
+OLED display is showing the below output
+
+<br>
+
+![gif](./img/67.png)
+
+<br>
+
+
+<br>
+
+
+
+# Control Matter End Node
+
+First you need to provide a room on which device is located
+
+<br>
+
+![gif](./img/77777.gif)
+
+<br>
+
+
+Now the device is showed in device list and can be controlled
+
+
+<br>
+
+![gif](./img/88888.gif)
+
+<br>
+
+On the end device side, the received commands are displayed on the LCD screen which shows the message LED ON when the ON command is pressed, and update the light level when the level cluster is modified as follow:
+
+
+<br>
+
+![gif](./img/69.png)
+
+<br>
