@@ -11,14 +11,14 @@ Presentation
 <br>
 
 
-# Tap on + then Add Accessory
+# Tap on + then Add Device
 <br>
 
-![gif](./img/1234567.gif)
+![gif](./img/32111.gif)
 
 <br>
 
-# Open the webcam and scan the QR CODE on OLED Display then click on Add To Home
+# Open the webcam and scan the QR CODE on OLED Display 
 
 <br>
 
