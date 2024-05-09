@@ -27,11 +27,11 @@ Presentation
 <br>
 
 
-# Matter device commissioning process starts
+# Matter device commissioning process starts, add uncertified accessory
 
 <br>
 
-![gif](./img/44444.gif)
+![gif](./img/123456789.gif)
 
 <br>
 
