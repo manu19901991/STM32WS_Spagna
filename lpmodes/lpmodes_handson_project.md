@@ -11,10 +11,10 @@ Presentation
 <br>
 
 
-# Tap on DEVICE, ADD, Matter
+# Tap on + then Add Accessory
 <br>
 
-![gif](./img/22222.gif)
+![gif](./img/1234567.gif)
 
 <br>
 
