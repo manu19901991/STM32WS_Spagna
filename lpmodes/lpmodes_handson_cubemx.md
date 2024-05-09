@@ -27,7 +27,7 @@ Presentation
 <br>
 
 
-# Matter device commissioning process starts, add uncertified accessory
+# Matter device commissioning process starts
 
 <br>
 
@@ -36,23 +36,15 @@ Presentation
 <br>
 
 
-# Select location and name of your Matter Device
-
-<br>
-
-![gif](./img/12345678910.gif)
-
-<br>
-
 
 # Matter commissioning finished successfully
 
 At the end of the commissioning, the STM32WB5MM-DK device is connected to the Matter network and the Fabric is created.
-
+Click on Done
 
 <br>
 
-![gif](./img/1234567891011.gif)
+![gif](./img/32155.gif)
 
 <br>
 
@@ -71,21 +63,12 @@ OLED display is showing the below output
 
 # Control Matter End Node
 
-First you need to provide a room on which device is located
-
-<br>
-
-![gif](./img/77777.gif)
-
-<br>
-
-
-Now the device is showed in device list and can be controlled
+The device is showed in device list and can be controlled
 
 
 <br>
 
-![gif](./img/88888.gif)
+![gif](./img/32166.gif)
 
 <br>
 
