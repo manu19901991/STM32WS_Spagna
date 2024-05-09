@@ -2,11 +2,11 @@
 Presentation
 ----!
 
-# Let's open HomeKit app on the mobile provided to you
+# Let's open Smarthings app on the mobile provided to you
 
 <br>
 
-![gif](./img/123456.gif)
+![gif](./img/3210.gif)
 
 <br>
 
