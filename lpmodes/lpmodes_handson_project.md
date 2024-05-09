@@ -1,10 +1,10 @@
 ----!
 
-# Let's open Google Home app on the mobile provided to you
+# Let's open HomeKit app on the mobile provided to you
 
 <br>
 
-![gif](./img/11111.gif)
+![gif](./img/aaaa.gif)
 
 <br>
 
