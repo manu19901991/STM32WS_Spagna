@@ -36,6 +36,14 @@ Presentation
 <br>
 
 
+# Select location and name of your Matter Device
+
+<br>
+
+![gif](./img/12345678910.gif)
+
+<br>
+
 
 # Matter commissioning finished successfully
 
@@ -44,7 +52,7 @@ At the end of the commissioning, the STM32WB5MM-DK device is connected to the Ma
 
 <br>
 
-![gif](./img/55555.gif)
+![gif](./img/1234567891011.gif)
 
 <br>
 
