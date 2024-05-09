@@ -2,11 +2,11 @@
 Presentation
 ----!
 
-# Let's open Smarthings app on the mobile provided to you
+# Let's open SmarThings app on the mobile provided to you
 
 <br>
 
-![gif](./img/3210.gif)
+![gif](./img/32100.gif)
 
 <br>
 
