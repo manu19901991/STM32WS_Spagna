@@ -18,11 +18,14 @@ Presentation
 
 <br>
 
-# Open the webcam and scan the QR CODE on OLED Display
+# Open the webcam and scan the QR CODE on OLED Display then click on Add To Home
 
 <br>
-![gif](./img/33333.gif)
+
+![gif](./img/12345678.gif)
+
 <br>
+
 
 # Matter device commissioning process starts
 
