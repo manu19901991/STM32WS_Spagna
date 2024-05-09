@@ -2,37 +2,98 @@
 Presentation
 ----!
 
-# Cache
-- Enable **ICACHE 1-way (direct mapped cache)**
+# Let's open HomeKit app on the mobile provided to you
 
-![gif3](./img/icache.gif)
+<br>
 
-# GPIO
-- Configure PC7 (Green LED) as Output Push-Pull. Right click on `PC7` and set as `GPIO_Output`
-  
-![gif3](./img/GPIO.gif)
+![gif](./img/123456.gif)
 
-# RTC unit 1
-Application periodically wakeups from Stop mode.
+<br>
 
-- To do that Wakeup counter of RTC unit is enabled. Keep default LSI as clock source.
 
-![gif4](./img/RTC_1.gif)
+# Tap on + then Add Accessory
+<br>
 
-# RTC unit 2
+![gif](./img/1234567.gif)
 
-LP Stop mode is entered by ` WFI()` instruction. For this reason:
+<br>
 
-- Enable `RTC non-secure interrupt` in NVIC Setting tab.
+# Open the webcam and scan the QR CODE on OLED Display then click on Add To Home
 
-- Set `Wake Up clock to 1Hz` base and `set counter to 2`.Periodic wake up event occurs every 2 seconds. 
+<br>
 
-![gif5](./img/RTC_2.gif)
+![gif](./img/12345678.gif)
 
-# Project Manager
-- Select CubeIDE Toolchain
+<br>
 
-- Write project name and `Generate Code`
-  
-![gif6](./img/XM_generation.gif)
-  
+
+# Matter device commissioning process starts, add uncertified accessory
+
+<br>
+
+![gif](./img/123456789.gif)
+
+<br>
+
+
+# Select location and name of your Matter Device
+
+<br>
+
+![gif](./img/12345678910.gif)
+
+<br>
+
+
+# Matter commissioning finished successfully
+
+At the end of the commissioning, the STM32WB5MM-DK device is connected to the Matter network and the Fabric is created.
+
+
+<br>
+
+![gif](./img/1234567891011.gif)
+
+<br>
+
+OLED display is showing the below output
+
+<br>
+
+![gif](./img/67.png)
+
+<br>
+
+
+<br>
+
+
+
+# Control Matter End Node
+
+First you need to provide a room on which device is located
+
+<br>
+
+![gif](./img/77777.gif)
+
+<br>
+
+
+Now the device is showed in device list and can be controlled
+
+
+<br>
+
+![gif](./img/88888.gif)
+
+<br>
+
+On the end device side, the received commands are displayed on the LCD screen which shows the message LED ON when the ON command is pressed, and update the light level when the level cluster is modified as follow:
+
+
+<br>
+
+![gif](./img/69.png)
+
+<br>
