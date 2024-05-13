@@ -71,21 +71,12 @@ OLED display is showing the below output
 
 # Control Matter End Node
 
-First you need to provide a room on which device is located
-
-<br>
-
-![gif](./img/77777.gif)
-
-<br>
-
-
 Now the device is showed in device list and can be controlled
 
 
 <br>
 
-![gif](./img/88888.gif)
+![gif](./img/10101010.gif)
 
 <br>
 
