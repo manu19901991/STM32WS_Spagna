@@ -398,20 +398,9 @@
               ]
             }
           ]
-        },
-        
-           {
-      "type": "Folder",
-      "name": "HOW TO REPLICATE THIS DEMO",
-      "children": [
-        {
-           "type": "File",
-          "name": "Steps to recreate the demo on your own",
-          "file": "file_live_1.md"
         }
-      ]
-    }
-
+        
+          
    
     
   ]
