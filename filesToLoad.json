@@ -352,7 +352,17 @@
     }
   ],
   "menuStructure": [
- 
+    {
+      "type": "Folder",
+      "name": "BEFORE WORKSHOP",
+      "children": [
+        {
+           "type": "File",
+          "name": "Before STM32 Matter session",
+          "file": "file_live_1.md"
+        }
+      ]
+    },
     {
       "type": "Folder",
       "name": "AT THE WORKSHOP",
@@ -398,10 +408,21 @@
               ]
             }
           ]
+
         }
         
           
-   
+        },
+        
+        {
+          "type": "File",
+          "name": "WORKSHOP PACKAGE MATERIALS",
+          "file": "stm32u5_workshop_package_materials1.md"
+        }
+
+      ]
+    }
+
     
   ]
 }
