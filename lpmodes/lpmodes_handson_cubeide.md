@@ -43,7 +43,6 @@ Click Yes!
 
 # Scan QR code
 
-to be done
 
 <br>
 
