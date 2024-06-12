@@ -43,6 +43,7 @@ Click Yes!
 
 # Scan QR code
 
+Use the QR Code on discovery board display!
 
 <br>
 
