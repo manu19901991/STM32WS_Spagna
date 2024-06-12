@@ -241,12 +241,12 @@
       "file": "lpmodes_handson_project.md"
     },
     {
-      "name": "Team Samsung SmartThings",
+      "name": "3. CubeMx Configuration",
       "path": "/lpmodes",
       "file": "lpmodes_handson_cubemx.md"
     },
     {
-      "name": "Team Amazon Alexa",
+      "name": "4. CubeIDE Code",
       "path": "/lpmodes",
       "file": "lpmodes_handson_cubeide.md"
     },
@@ -396,7 +396,7 @@
                 },
                 {
                   "type": "File",
-                  "name": "Samsung SmartThings",
+                  "name": "Samsung Smartthings",
                   "file": "lpmodes_handson_cubemx.md"
                 },
                 {
