@@ -409,17 +409,7 @@
               ]
             }
           ]
-        },
-        
-           
-     
-        {
-          "type": "File",
-          "name": "WORKSHOP PACKAGE MATERIALS",
-          "file": "stm32u5_workshop_package_materials1.md"
-           
         }
-
 
       ]
     }
