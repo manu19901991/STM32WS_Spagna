@@ -241,12 +241,12 @@
       "file": "lpmodes_handson_project.md"
     },
     {
-      "name": "Team Samsung SmartThings",
+      "name": "3. CubeMx Configuration",
       "path": "/lpmodes",
       "file": "lpmodes_handson_cubemx.md"
     },
     {
-      "name": "Team Amazon Alexa",
+      "name": "4. CubeIDE Code",
       "path": "/lpmodes",
       "file": "lpmodes_handson_cubeide.md"
     },
@@ -363,13 +363,12 @@
         }
       ]
     },
- 
     {
       "type": "Folder",
       "name": "AT THE WORKSHOP",
       "children": [
 
-          {
+      	  {
           "type": "File",
           "name": "Materials+Handson Overview",
           "file": "lpmodes_handson_intro1.md"
@@ -397,7 +396,7 @@
                 },
                 {
                   "type": "File",
-                  "name": "Samsung SmartThings",
+                  "name": "Samsung Smartthings",
                   "file": "lpmodes_handson_cubemx.md"
                 },
                 {
@@ -409,15 +408,19 @@
               ]
             }
           ]
-        }
+
+        },
         
-           
-     
-       
+        {
+          "type": "File",
+          "name": "WORKSHOP PACKAGE MATERIALS",
+          "file": "stm32u5_workshop_package_materials1.md"
+        }
 
-
-      ]
-    }
+        
+        
+          
+   
     
   ]
 }
